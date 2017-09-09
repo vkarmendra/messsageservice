@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService", "MessagingService\MessagingService.csproj", "{EF18D7A0-8082-443F-ADB3-68D2481A7DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F134E0BA-4CA2-4261-910A-67D162030B9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D7B716AD-463F-4B59-8FBA-4934AC17174D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{7C16FAB7-3577-43B8-9A77-8992FDDB5ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Service.Abstraction", "MessagingService.Service.Abstraction\MessagingService.Service.Abstraction.csproj", "{DC3C3D3B-14E5-4825-9FDB-EC79DE9D8D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.ZaloService", "MessagingService.ZaloService\MessagingService.ZaloService.csproj", "{482B4F3B-D38A-42E6-A61E-799E259230A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KeyProvider", "KeyProvider", "{28356B5E-8D9B-409C-BBC4-5CA91BFB1C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.KeyProvider.Abstraction", "MessagingService.KeyProvider.Abstraction\MessagingService.KeyProvider.Abstraction.csproj", "{D7A23489-A6DC-4BC6-A408-194866FEFCAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.KeyProvider.Json.Implementation", "MessagingService.KeyProvider.Json.Implementation\MessagingService.KeyProvider.Json.Implementation.csproj", "{3DBFE387-C348-4E8A-A0D2-0A085123659D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.TextLocal", "MessagingService.TextLocal\MessagingService.TextLocal.csproj", "{1F6CD9E0-D304-4F5C-A416-7C0100B96349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{918EE0E6-185F-4729-9450-7A3D7D42F15D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Common", "MessagingService.Common\MessagingService.Common.csproj", "{86BC2394-F7AF-4593-B0E2-1B3D974253C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF18D7A0-8082-443F-ADB3-68D2481A7DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF18D7A0-8082-443F-ADB3-68D2481A7DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF18D7A0-8082-443F-ADB3-68D2481A7DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF18D7A0-8082-443F-ADB3-68D2481A7DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3C3D3B-14E5-4825-9FDB-EC79DE9D8D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3C3D3B-14E5-4825-9FDB-EC79DE9D8D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3C3D3B-14E5-4825-9FDB-EC79DE9D8D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3C3D3B-14E5-4825-9FDB-EC79DE9D8D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{482B4F3B-D38A-42E6-A61E-799E259230A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482B4F3B-D38A-42E6-A61E-799E259230A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482B4F3B-D38A-42E6-A61E-799E259230A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482B4F3B-D38A-42E6-A61E-799E259230A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A23489-A6DC-4BC6-A408-194866FEFCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A23489-A6DC-4BC6-A408-194866FEFCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A23489-A6DC-4BC6-A408-194866FEFCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A23489-A6DC-4BC6-A408-194866FEFCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBFE387-C348-4E8A-A0D2-0A085123659D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBFE387-C348-4E8A-A0D2-0A085123659D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBFE387-C348-4E8A-A0D2-0A085123659D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBFE387-C348-4E8A-A0D2-0A085123659D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6CD9E0-D304-4F5C-A416-7C0100B96349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6CD9E0-D304-4F5C-A416-7C0100B96349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6CD9E0-D304-4F5C-A416-7C0100B96349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6CD9E0-D304-4F5C-A416-7C0100B96349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BC2394-F7AF-4593-B0E2-1B3D974253C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BC2394-F7AF-4593-B0E2-1B3D974253C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BC2394-F7AF-4593-B0E2-1B3D974253C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BC2394-F7AF-4593-B0E2-1B3D974253C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C16FAB7-3577-43B8-9A77-8992FDDB5ED8} = {F134E0BA-4CA2-4261-910A-67D162030B9F}
+		{DC3C3D3B-14E5-4825-9FDB-EC79DE9D8D32} = {7C16FAB7-3577-43B8-9A77-8992FDDB5ED8}
+		{482B4F3B-D38A-42E6-A61E-799E259230A2} = {D7B716AD-463F-4B59-8FBA-4934AC17174D}
+		{28356B5E-8D9B-409C-BBC4-5CA91BFB1C4F} = {F134E0BA-4CA2-4261-910A-67D162030B9F}
+		{D7A23489-A6DC-4BC6-A408-194866FEFCAB} = {28356B5E-8D9B-409C-BBC4-5CA91BFB1C4F}
+		{3DBFE387-C348-4E8A-A0D2-0A085123659D} = {28356B5E-8D9B-409C-BBC4-5CA91BFB1C4F}
+		{1F6CD9E0-D304-4F5C-A416-7C0100B96349} = {D7B716AD-463F-4B59-8FBA-4934AC17174D}
+		{918EE0E6-185F-4729-9450-7A3D7D42F15D} = {F134E0BA-4CA2-4261-910A-67D162030B9F}
+		{86BC2394-F7AF-4593-B0E2-1B3D974253C1} = {918EE0E6-185F-4729-9450-7A3D7D42F15D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF3BD40B-0664-442D-9CA8-EF2F7FE22FB4}
+	EndGlobalSection
+EndGlobal

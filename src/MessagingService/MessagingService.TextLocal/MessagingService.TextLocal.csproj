@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MessagingService.Common\MessagingService.Common.csproj" />
+    <ProjectReference Include="..\MessagingService.KeyProvider.Abstraction\MessagingService.KeyProvider.Abstraction.csproj" />
+    <ProjectReference Include="..\MessagingService.Service.Abstraction\MessagingService.Service.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
